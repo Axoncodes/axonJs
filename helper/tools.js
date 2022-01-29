@@ -15,6 +15,15 @@ function exploit(data, regExp) {
   return ans;
 }
 
+function removeNulls(mainArr) {
+  const validArr = [];
+  mainArr.forEach((item) => {
+    if (item && typeof item !== 'boolean') validArr.push(item);
+  });
+  return validArr;
+}
+
 module.exports = {
   exploit,
+  removeNulls
 }
