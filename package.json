@@ -1,11 +1,16 @@
 {
   "name": "@axoncodes/xjs",
   "version": "1.0.2",
-  "description": "shoertening your conditions in code",
+  "description": "Better quality time with JS",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "keywords": [
+    "js",
+    "simple js",
+    "axoncodes"
+  ],
   "author": "Axoncodes",
   "license": "ISC"
 }
